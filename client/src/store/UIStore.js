@@ -15,8 +15,6 @@ class UIStore {
     this.rootStore = rootStore;
     this.api = new Api(`cards`);
     this.getCards();
-    //this.findCard("4Hq8AC-W");
-    //this.findCard("DzhM4d6W");
   }
 
   handleToggleModal = () => {

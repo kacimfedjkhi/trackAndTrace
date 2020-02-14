@@ -16,7 +16,7 @@
     "react-scroll-into-view": "^1.7.0",
     "styled-components": "^5.0.0"
   },
-  "proxy": "http://localhost:4000",
+  "proxy": "http://localhost:4001",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
