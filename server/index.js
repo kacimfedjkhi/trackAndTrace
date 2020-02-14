@@ -19,7 +19,7 @@ mongoose
 
 const app = express();
 
-app.use(express.static(path.resolve(__dirname, "../client/build/")));
+app.use(express.static(path.resolve(__dirname, "../client/public/")));
 
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
